@@ -1,0 +1,205 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+body{
+    background-image: url(bg-img.avif);
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    background-color: #334155;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    filter: invert(100%);
+    padding: 0px 14%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 44%;
+
+
+}
+
+ul li{
+    list-style-type: none;
+}
+ ul li a{
+    font-weight: 600;
+    text-decoration: none;
+
+ }
+
+ul li:not(:last-child) a:hover,ul li a.active {
+    text-decoration: underline 2px;
+    text-underline-offset: 4px;
+    color: #4ca8e1;
+    text-decoration-color: white;
+}
+.btn{
+    font-weight: 700;
+    padding: 8px 20px;
+    border: none;
+    background-color:#4ca8e1 ;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+}
+.btn:hover {
+    background-color: #0091ff;
+}
+.hamburger{
+    font-size: 30px;
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .hamburger{
+        display: flex;
+        cursor: pointer;
+    }
+    ul{
+        display: none;
+    }
+    ul.ham_active{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position:absolute;
+        top:60px;
+        left: 0px;
+        background-color: #334155;
+        width: 100%;
+        gap: 24px;
+        height: 320px;
+    }
+    
+}
+
+
+/* home */
+
+/*  home  */
+
+
+.home span{
+    font-size: 50px;
+}
+.home h1{
+    font-size: 40px;
+}
+.home p{
+    letter-spacing: 2px;
+}
+.home .btn{
+    background-color: tomato;
+}
+.home .btn:hover {
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+/* home section */
+#hometext{
+    padding-top:  15%;
+    padding-bottom: 50px;
+}
+
+#home-img img{
+    position: relative;
+    top: 20%;
+    border-radius: 20px;
+}
+
+
+/* about */
+
+
+#aboutttt{
+padding-bottom: 20px;
+}
+#abouttop h1{
+    padding-top:  100px;
+    color: black;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+
+#about-img img{
+    position: relative;
+    top: 0%;
+    border-radius: 20px;
+
+
+}
+#abouttext .hh{
+    font-size: 20px;
+    padding-bottom: 1px;
+}
+@media only screen and (max-width: 768px){
+    #abouttext{
+        padding: 10px;
+    }
+}
+
+
+
+/* service */
+#servicehome{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-color: #bb95e6;
+}
+ #servicetext{
+    color:white;
+}
+
+#paratext{
+    color: white;
+}
+
+#iconee{
+    font-size: 50px;
+    color: white;
+}
+
+
+
+#imagess{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
